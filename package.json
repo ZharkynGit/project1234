@@ -1,0 +1,31 @@
+{
+  "name": "english-learning-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "ns run ios --no-hmr",
+    "preview": "ns preview",
+    "clean": "ns clean",
+    "build:ios": "ns build ios",
+    "build:android": "ns build android"
+  },
+  "dependencies": {
+    "@nativescript/core": "~8.6.0",
+    "@nativescript/theme": "~3.0.2",
+    "@react-native-community/audio-toolkit": "^2.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-nativescript": "^5.0.0",
+    "socket.io-client": "^4.7.4"
+  },
+  "devDependencies": {
+    "@nativescript/android": "~8.6.0",
+    "@nativescript/ios": "~8.6.0",
+    "@nativescript/types": "~8.6.0",
+    "@nativescript/webpack": "~5.0.18",
+    "@types/react": "^18.3.5",
+    "typescript": "^5.5.3"
+  },
+  "main": "app.js"
+}
